@@ -57,5 +57,10 @@ git push 把本地仓库推送到远程仓库
 2. 当前分支前面带有星号*
 3. 创建分支：git  brance 分支名
 4. 切换分支：git checkout 分支名
-
+5. 切换分支之后，工作区的代码自动切换到对应分支的代码
+6. 合并分支： git merge test(分支名字)把test分支合并到当前分支
+7. 删除分支：git branch -d 分支名
+8. git pull origin test 更新代码到本地，自动合并到当前分支
+9. git fetch origin test 更新代码到本地，不会合并到当前分支、
+10. git merge FETCH_HEAD 把FETCH_HEAD合并到当前分支
 
